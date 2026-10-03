@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How It Affects You</title>
+<meta name="description" content="Current events translated into practical daily-life impact: weather, energy, military and global events, transportation, economy, and public alerts.">
+<style>
+:root{--bg:#071018;--panel:#0d1822;--panel2:#111f2b;--text:#f3f7fa;--muted:#9fb0bd;--line:#20313e;--green:#42d392;--yellow:#ffd166;--orange:#ff9f43;--red:#ff5d5d;--blue:#65b5ff}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#071018,#09141d 45%,#071018);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+a{color:inherit}.wrap{max-width:1180px;margin:auto;padding:0 20px}.top{position:sticky;top:0;z-index:9;background:#071018e8;backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{height:68px;display:flex;align-items:center;gap:18px}.brand{font-weight:900;letter-spacing:-.7px;font-size:21px}.brand span{color:var(--green)}.navlinks{display:flex;gap:16px;margin-left:auto;color:var(--muted);font-size:14px}.navlinks a{text-decoration:none}.btn{border:1px solid var(--line);background:var(--panel2);color:var(--text);padding:10px 14px;border-radius:12px;cursor:pointer}
+.hero{padding:58px 0 28px}.eyebrow{color:var(--green);font-weight:800;text-transform:uppercase;letter-spacing:1.4px;font-size:12px}.hero h1{font-size:clamp(42px,7vw,78px);line-height:.96;letter-spacing:-4px;margin:12px 0 18px;max-width:900px}.hero p{max-width:720px;color:var(--muted);font-size:18px;line-height:1.6}.location{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}.location input{min-width:260px;flex:0 1 390px;background:#0b1720;border:1px solid var(--line);color:white;border-radius:12px;padding:13px 15px;font-size:15px}
+.ticker{border:1px solid var(--line);background:#0a151e;border-radius:16px;padding:13px 16px;display:flex;gap:25px;overflow:auto;white-space:nowrap;color:var(--muted);font-size:13px}.ticker b{color:white}.up{color:#ff7d7d}.down{color:#62dda0}
+.section{padding:34px 0}.sectionhead{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:15px}.section h2{margin:0;font-size:25px;letter-spacing:-.7px}.sub{color:var(--muted);font-size:13px}.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:15px}.card{grid-column:span 4;background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:18px;padding:19px;min-height:210px}.wide{grid-column:span 8}.half{grid-column:span 6}.full{grid-column:1/-1}.tag{display:inline-flex;align-items:center;gap:7px;font-size:11px;text-transform:uppercase;letter-spacing:.8px;font-weight:900;padding:6px 9px;border-radius:999px;background:#162632;color:#c7d3dc}.dot{width:7px;height:7px;border-radius:50%;background:var(--green)}.high .dot{background:var(--red)}.med .dot{background:var(--yellow)}
+.card h3{font-size:21px;line-height:1.15;margin:15px 0 10px;letter-spacing:-.4px}.card p{color:var(--muted);line-height:1.55;margin:0 0 14px}.impact{border-top:1px solid var(--line);padding-top:13px;margin-top:14px;font-size:13px}.impact b{color:var(--green)}.source{font-size:11px;color:#708491;margin-top:14px}.loading{color:var(--muted)}
+.bottomline{background:linear-gradient(135deg,#123327,#10212b);border:1px solid #285540;border-radius:20px;padding:24px}.bottomline h2{font-size:28px}.bottomline p{font-size:17px;color:#d6e3dc;line-height:1.6}
+.footer{border-top:1px solid var(--line);margin-top:40px;padding:30px 0 50px;color:var(--muted);font-size:12px;line-height:1.6}
+@media(max-width:800px){.navlinks{display:none}.hero h1{letter-spacing:-2.5px}.card,.wide,.half{grid-column:1/-1}.hero{padding-top:40px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap nav"><div class="brand">HOW IT <span>AFFECTS YOU</span></div><nav class="navlinks"><a href="#today">Today</a><a href="#weather">Weather</a><a href="#energy">Energy</a><a href="#world">World</a></nav><button class="btn" onclick="refreshAll()">Refresh</button></div></header>
+<main class="wrap">
+<section class="hero"><div class="eyebrow">Signal, not noise.</div><h1>The news that changes your day.</h1><p>Military and global events, fuel prices, dangerous weather, transportation and economic changes—translated into what they could mean for your wallet, commute, travel and family.</p>
+<div class="location">
+<input id="place" placeholder="Enter city, state or ZIP code" aria-label="City, state or ZIP code">
+<button class="btn" onclick="setLocation()">Use location</button>
+<button class="btn" onclick="useMyLocation()">Use my current location</button>
+</div><div class="sub" id="locationStatus" style="margin-top:10px">Choose a location to personalize weather and local impact.</div></section>
+<div class="ticker" id="ticker"><span><b>LIVE DASHBOARD</b></span><span>Weather: <b id="weatherTick">checking…</b></span><span>Fuel: <b>connect EIA key</b></span><span>Global: <b>live headlines</b></span><span id="updated">Updating…</span></div>
+
+<section class="section" id="today"><div class="sectionhead"><div><div class="eyebrow">Daily impact brief</div><h2>What matters right now</h2></div><div class="sub">Prioritized by potential daily-life impact</div></div>
+<div class="grid"><article class="card wide" id="lead"><span class="tag med"><i class="dot"></i>Checking</span><h3>Building your impact brief…</h3><p>Set your location for local alerts while current global headlines load.</p></article>
+<article class="card"><span class="tag"><i class="dot"></i>How to read this</span><h3>Impact over outrage</h3><p>Stories are selected for practical effects: safety, prices, travel, work, utilities and household costs.</p><div class="impact"><b>Rule:</b> facts first; scenarios are labeled.</div></article></div></section>
+
+<section class="section" id="weather"><div class="sectionhead"><div><div class="eyebrow">Local safety</div><h2>Weather & alerts</h2></div><div class="sub">National Weather Service</div></div><div class="grid" id="weatherGrid"><article class="card full loading">Loading active alerts…</article></div></section>
+
+<section class="section" id="energy"><div class="sectionhead"><div><div class="eyebrow">Your wallet</div><h2>Gas & energy</h2></div><div class="sub">Designed for EIA data</div></div>
+<div class="grid"><article class="card half"><span class="tag"><i class="dot"></i>Gasoline</span><h3>Retail fuel tracker</h3><p id="gasText">Add a free EIA API key in <code>config.js</code> to activate national and regional fuel-price history.</p><div class="impact"><b>Why it matters:</b> changes affect commuting, delivery costs and household budgets.</div></article>
+<article class="card half"><span class="tag"><i class="dot"></i>Oil & diesel</span><h3>Upstream pressure</h3><p>Track crude and diesel alongside pump prices so a headline doesn't get confused with what drivers are actually paying today.</p><div class="impact"><b>Watch:</b> sustained moves matter more than a single trading day.</div></article></div></section>
+
+<section class="section" id="world"><div class="sectionhead"><div><div class="eyebrow">Global → local</div><h2>Military & world events</h2></div><div class="sub">Near-real-time public news index</div></div><div class="grid" id="newsGrid"><article class="card full loading">Loading current headlines…</article></div></section>
+
+<section class="section"><div class="bottomline"><div class="eyebrow">The bottom line</div><h2>What should you actually care about?</h2><p id="bottomText">We're checking for immediate local safety alerts first. The dashboard then surfaces events that can plausibly change fuel costs, travel, supply chains, utilities or household expenses. It does not tell you what political conclusion to reach.</p></div></section>
+</main>
+<footer class="footer"><div class="wrap"><b>HOW IT AFFECTS YOU</b><br>Information dashboard, not emergency, financial or investment advice. Weather warnings should be confirmed with the National Weather Service and local authorities. Developing-event impacts can change as facts emerge.</div></footer>
+<script src="config.js"></script>
+<script>
+let state={lat:null,lon:null,place:"Your area"};
+const esc=s=>String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]));
+function age(d){let x=(Date.now()-new Date(d))/60000;if(x<60)return Math.max(1,Math.round(x))+"m ago";if(x<1440)return Math.round(x/60)+"h ago";return Math.round(x/1440)+"d ago"}
+function impactFor(text){text=(text||"").toLowerCase();if(/tornado|hurricane|evacuat|flash flood|extreme|missile|attack|war|closure|outage/.test(text))return["high","High impact"];if(/warning|watch|oil|gas|diesel|tariff|strike|storm|military|deployment|inflation/.test(text))return["med","Watch"];return["","Developing"]}
+async function weather(){
+ const box=document.getElementById("weatherGrid");
+ if(state.lat===null||state.lon===null){
+   document.getElementById("weatherTick").textContent="Set location";
+   box.innerHTML=`<article class="card full"><span class="tag med"><i class="dot"></i>Location needed</span><h3>What's happening where you live?</h3><p>Enter a U.S. city, state or ZIP code above, or allow your browser to share your current location. We use it to request local National Weather Service alerts.</p></article>`;
+   return;
+ }
+ try{let r=await fetch(`https://api.weather.gov/alerts/active?point=${state.lat},${state.lon}`,{headers:{"Accept":"application/geo+json"}});let j=await r.json();let a=j.features||[];
+ document.getElementById("weatherTick").textContent=a.length?`${a.length} active alert${a.length>1?"s":""}`:"No active alerts";
+ if(!a.length){box.innerHTML=`<article class="card full"><span class="tag"><i class="dot"></i>No active alerts</span><h3>No NWS warning at this point right now</h3><p>Conditions can change. Refresh for the latest official alert feed.</p><div class="impact"><b>Affects you:</b> no immediate alert detected by this feed.</div></article>`;return}
+ box.innerHTML=a.slice(0,6).map(x=>{let p=x.properties,[c,l]=impactFor((p.event||"")+" "+(p.severity||""));return `<article class="card half"><span class="tag ${c}"><i class="dot"></i>${esc(p.severity||l)}</span><h3>${esc(p.event)}</h3><p>${esc((p.headline||p.description||"").slice(0,320))}</p><div class="impact"><b>What this means:</b> Check timing, affected roads, travel and outdoor plans.</div><div class="source">NWS • ${esc(p.areaDesc||state.place)}</div></article>`}).join("");
+ let p=a[0].properties;document.getElementById("lead").innerHTML=`<span class="tag high"><i class="dot"></i>Local alert</span><h3>${esc(p.event)}</h3><p>${esc((p.headline||p.description||"").slice(0,360))}</p><div class="impact"><b>First priority:</b> local safety conditions may affect travel or plans.</div>`;
+ document.getElementById("bottomText").textContent=`Your most immediate signal is ${p.event} for the area. Check the official alert details before travel or outdoor activity.`;
+ }catch(e){box.innerHTML=`<article class="card full"><h3>Weather feed unavailable</h3><p>Refresh in a moment or check weather.gov directly.</p></article>`}
+}
+async function news(){
+ const box=document.getElementById("newsGrid");
+ const q=encodeURIComponent('(military OR missile OR conflict OR "oil price" OR gasoline OR diesel OR "supply chain" OR blackout OR "flight disruption")');
+ const url=`https://api.gdeltproject.org/api/v2/doc/doc?query=${q}&mode=artlist&maxrecords=12&format=json&sort=datedesc`;
+ try{let r=await fetch(url);let j=await r.json();let arts=j.articles||[];
+ if(!arts.length)throw 0;
+ box.innerHTML=arts.slice(0,9).map(a=>{let[c,l]=impactFor(a.title);return `<article class="card"><span class="tag ${c}"><i class="dot"></i>${l}</span><h3>${esc(a.title)}</h3><p>${esc(a.domain||"News source")} • ${age(a.seendate||a.date)}</p><div class="impact"><b>Potential impact:</b> ${/oil|gas|diesel/i.test(a.title)?"fuel and transportation costs":/flight|airport|travel/i.test(a.title)?"travel and transportation":/military|missile|conflict|war/i.test(a.title)?"energy, travel, markets or military families":"daily-life effects still developing"}</div><div class="source"><a target="_blank" rel="noopener" href="${esc(a.url)}">Read original reporting ↗</a></div></article>`}).join("")
+ }catch(e){box.innerHTML=`<article class="card full"><h3>Headline feed is temporarily unavailable</h3><p>The page is ready to use GDELT's public news index. Some static hosts or browsers may require a small server-side proxy for this feed.</p></article>`}
+}
+async function geocodeUS(query){
+  const u=`https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=${encodeURIComponent(query)}&benchmark=Public_AR_Current&format=json`;
+  let r=await fetch(u); if(!r.ok) throw new Error("geocode");
+  let j=await r.json(); let m=j.result?.addressMatches?.[0];
+  if(!m) throw new Error("notfound");
+  return {lat:m.coordinates.y,lon:m.coordinates.x,place:m.matchedAddress||query};
+}
+async function setLocation(){
+ const input=document.getElementById("place"), status=document.getElementById("locationStatus");
+ let v=input.value.trim(); if(!v){status.textContent="Enter a city, state or ZIP code.";return}
+ status.textContent="Finding your location…";
+ try{
+   let g=await geocodeUS(v); Object.assign(state,g);
+   input.value=state.place; status.textContent=`Showing local impact for ${state.place}`;
+   localStorage.setItem("hiayLocation",JSON.stringify(state)); await refreshAll();
+ }catch(e){status.textContent="Location not found. Try a full city and state (example: Austin, TX) or a ZIP code."}
+}
+function useMyLocation(){
+ const status=document.getElementById("locationStatus");
+ if(!navigator.geolocation){status.textContent="This browser doesn't support location access.";return}
+ status.textContent="Requesting your location…";
+ navigator.geolocation.getCurrentPosition(async pos=>{
+   state.lat=pos.coords.latitude; state.lon=pos.coords.longitude; state.place="Current location";
+   document.getElementById("place").value="Current location";
+   status.textContent="Using your current location. Your coordinates are not stored by this demo.";
+   localStorage.setItem("hiayLocation",JSON.stringify(state)); await refreshAll();
+ },err=>{status.textContent="Location access wasn't granted. You can still enter a city, state or ZIP code."},
+ {enableHighAccuracy:false,timeout:10000,maximumAge:300000});
+}
+async function refreshAll(){
+ document.getElementById("updated").textContent="Updated "+new Date().toLocaleTimeString([], {hour:"numeric",minute:"2-digit"});
+ await Promise.all([weather(),news()])
+}
+(function boot(){
+ try{
+   let saved=JSON.parse(localStorage.getItem("hiayLocation")||"null");
+   if(saved&&Number.isFinite(saved.lat)&&Number.isFinite(saved.lon)){
+     state=saved; document.getElementById("place").value=saved.place||"Saved location";
+     document.getElementById("locationStatus").textContent=`Showing local impact for ${saved.place||"your saved location"}`;
+   }
+ }catch(e){}
+ refreshAll();
+})();
+</script></body></html>
