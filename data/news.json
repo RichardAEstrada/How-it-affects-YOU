@@ -1,0 +1,1607 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-26T20:42:45Z",
+  "refresh_interval_seconds": null,
+  "stale_after_seconds": 7200,
+  "sources": [
+    {
+      "id": "npr",
+      "name": "NPR News",
+      "feed_url": "https://feeds.npr.org/1001/rss.xml",
+      "last_attempt_at": "2026-10-26T20:42:45Z",
+      "last_success_at": "2026-10-26T20:42:45Z",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "title": "Trump administration pushes for food assistance card upgrade to fight fraud",
+          "link": "https://www.npr.org/2026/10/26/nx-s1-6017810/snap-benefits-ebt-card-chip-usda-rule",
+          "pubDate": "2026-10-26T18:41:43Z",
+          "author": "Juliana Kim",
+          "categories": []
+        },
+        {
+          "title": "Judge says DOJ illegally fired the daughter of former FBI director Comey",
+          "link": "https://www.npr.org/2026/10/26/g-s1-149960/judge-maurene-comey-illegal-dismissal",
+          "pubDate": "2026-10-26T18:38:01Z",
+          "author": "Nate Perez",
+          "categories": []
+        },
+        {
+          "title": "AI giant Anthropic files for an IPO that could break records",
+          "link": "https://www.npr.org/2026/10/26/nx-s1-6014772/anthropic-ai-ipo-could-break-records",
+          "pubDate": "2026-10-26T14:16:23Z",
+          "author": "John Ruwitch",
+          "categories": []
+        },
+        {
+          "title": "Australian judge rejects prisoner's human rights challenge to Vegemite ban",
+          "link": "https://www.npr.org/2026/10/26/g-s1-149923/australian-judge-rejects-prisoners-human-rights-challenge-to-vegemite-ban",
+          "pubDate": "2026-10-26T13:25:33Z",
+          "author": "The Associated Press",
+          "categories": []
+        },
+        {
+          "title": "What to know about China's plenum as Xi seeks stronger party discipline",
+          "link": "https://www.npr.org/2026/10/26/g-s1-149918/what-to-know-about-chinas-plenum-as-xi-seeks-stronger-party-discipline",
+          "pubDate": "2026-10-26T13:20:38Z",
+          "author": "The Associated Press",
+          "categories": []
+        },
+        {
+          "title": "Redistricting isn't playing out how the GOP hoped. And, Brazil's Lula wins 4th term",
+          "link": "https://www.npr.org/2026/10/26/g-s1-149917/up-first-newsletter-republican-redistricting-france-serbia-protests-brazil-luiz-inacio-lula-da-silva",
+          "pubDate": "2026-10-26T11:11:00Z",
+          "author": "Suzanne Nuyen",
+          "categories": []
+        },
+        {
+          "title": "Trump escalates anti-Muslim attacks against El-Sayed in Michigan",
+          "link": "https://www.npr.org/2026/10/26/nx-s1-6016816/trump-escalates-anti-muslim-attacks",
+          "pubDate": "2026-10-26T09:22:36Z",
+          "author": "The Associated Press",
+          "categories": []
+        },
+        {
+          "title": "Republicans are spending millions and still may not win districts drawn to favor them",
+          "link": "https://www.npr.org/2026/10/26/nx-s1-6008167/republican-redistricting-midterms-competitive-map",
+          "pubDate": "2026-10-26T09:00:00Z",
+          "author": "Tamara Keith",
+          "categories": []
+        },
+        {
+          "title": "Court ruling fails to end wait for thousands of immigrants stuck abroad without visas",
+          "link": "https://www.npr.org/2026/10/26/nx-s1-5991896/court-ruling-fails-to-end-wait-for-thousands-of-immigrants-stuck-abroad-without-visas",
+          "pubDate": "2026-10-26T09:00:00Z",
+          "author": "Sergio Martínez-Beltrán",
+          "categories": []
+        },
+        {
+          "title": "How AI is transforming hurricane forecasts",
+          "link": "https://www.npr.org/2026/10/26/nx-s1-6012820/ai-hurricane-forecast-google-deepmind-isaias",
+          "pubDate": "2026-10-26T09:00:00Z",
+          "author": "Jessica Meszaros",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "id": "guardian",
+      "name": "The Guardian",
+      "feed_url": "https://www.theguardian.com/world/rss",
+      "last_attempt_at": "2026-10-26T20:42:45Z",
+      "last_success_at": "2026-10-26T20:42:45Z",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "title": "UK sanctions Sudanese military leaders implicated in El Fasher ‘campaign of rape’",
+          "link": "https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of",
+          "pubDate": "2026-10-26T15:07:23Z",
+          "author": "Mark Townsend",
+          "categories": [
+            "Global development",
+            "Sudan",
+            "Africa",
+            "Middle East and north Africa",
+            "World news",
+            "War crimes",
+            "Rape and sexual assault",
+            "Violence against women and girls",
+            "Foreign, Commonwealth and Development Office",
+            "Law",
+            "Politics",
+            "UK news"
+          ]
+        },
+        {
+          "title": "US forces accused of ‘weaponising’ Somalia’s floods by trapping women and children in the path of El Niño",
+          "link": "https://www.theguardian.com/global-development/2026/oct/26/us-forces-accused-of-weaponising-somalia-flood-el-nino",
+          "pubDate": "2026-10-26T11:00:40Z",
+          "author": "Mark Townsend in Kismayo",
+          "categories": [
+            "Global development",
+            "Somalia",
+            "Africa",
+            "Middle East and north Africa",
+            "World news",
+            "El Niño southern oscillation",
+            "Internally displaced people",
+            "Flooding",
+            "Conflict and arms",
+            "Al-Shabaab",
+            "Humanitarian response",
+            "War crimes",
+            "US military",
+            "Extreme weather",
+            "US news",
+            "Climate crisis",
+            "Drones (military)"
+          ]
+        },
+        {
+          "title": "Sudan paramilitary drone strikes cause mass power cuts in eastern states",
+          "link": "https://www.theguardian.com/world/2026/oct/26/sudan-paramilitary-drone-strikes-rapid-support-forces-power-cuts-eastern-states",
+          "pubDate": "2026-10-26T09:59:27Z",
+          "author": "Agence France-Presse in Khartoum",
+          "categories": [
+            "Sudan",
+            "Africa",
+            "Middle East and north Africa",
+            "World news"
+          ]
+        },
+        {
+          "title": "UK poised to miss reduced aid spending target of 0.3% of national income",
+          "link": "https://www.theguardian.com/politics/2026/oct/26/uk-international-aid-target-spending-shortfall-budget-research",
+          "pubDate": "2026-10-26T06:59:36Z",
+          "author": "Rowena Mason Whitehall editor",
+          "categories": [
+            "Foreign policy",
+            "Labour",
+            "Aid",
+            "Budget 2026",
+            "Africa",
+            "Politics",
+            "Foreign, Commonwealth and Development Office",
+            "Budget",
+            "World news",
+            "UK news"
+          ]
+        },
+        {
+          "title": "Mystery over source of Ebola infection in Nigeria fuels concern about spread of virus",
+          "link": "https://www.theguardian.com/world/2026/oct/23/ebola-swiss-patient-nigeria-dr-congo-concerns-virus-spread",
+          "pubDate": "2026-10-23T13:57:11Z",
+          "author": "Carlos Mureithi in Nairobi and agencies",
+          "categories": [
+            "Ebola",
+            "Nigeria",
+            "Democratic Republic of the Congo",
+            "Africa",
+            "World news",
+            "Switzerland",
+            "Uganda"
+          ]
+        },
+        {
+          "title": "How the streets and social media drove Lula to a historic comeback in Brazil",
+          "link": "https://www.theguardian.com/world/2026/oct/26/lula-victory-brazil-bolsonaro-analysis",
+          "pubDate": "2026-10-26T17:56:50Z",
+          "author": "Tiago Rogero in Brasília and Tom Phillips in São Paulo",
+          "categories": [
+            "Brazil",
+            "World news",
+            "Americas",
+            "Luiz Inácio Lula da Silva"
+          ]
+        },
+        {
+          "title": "How Lula beat far-right Bolsonaro in Brazil – The Latest",
+          "link": "https://www.theguardian.com/news/audio/2026/oct/26/how-lula-beat-far-right-bolsonaro-in-brazil-the-latest",
+          "pubDate": "2026-10-26T17:38:16Z",
+          "author": "Presented by Michael Safi with Tom Phillips; produced by Angus Neale; senior producer Bryony Moore",
+          "categories": [
+            "Brazil",
+            "Luiz Inácio Lula da Silva",
+            "Flávio Bolsonaro",
+            "Jair Bolsonaro",
+            "Americas",
+            "World news"
+          ]
+        },
+        {
+          "title": "Brazil runoff as it happened: world leaders congratulate Lula on historic election win as Bolsonaro refuses to concede",
+          "link": "https://www.theguardian.com/world/live/2026/oct/25/brazil-election-runoff-live-updates-flavio-bolsonaro-lula",
+          "pubDate": "2026-10-26T17:10:31Z",
+          "author": "Tom Ambrose (now); Martin Belam, Yohannes Lowe, Adam Fulton and Marina Dunbar (earlier)",
+          "categories": [
+            "Brazil",
+            "World news",
+            "Luiz Inácio Lula da Silva",
+            "Flávio Bolsonaro",
+            "Americas"
+          ]
+        },
+        {
+          "title": "‘Democracy always’: Lula vows no return to dictatorship in Brazil after election win",
+          "link": "https://www.theguardian.com/world/2026/oct/26/brazil-lula-vow-democracy-always-election-win",
+          "pubDate": "2026-10-26T15:51:18Z",
+          "author": "Tom Phillips in São Paulo and Tiago Rogero in Brasília",
+          "categories": [
+            "Brazil",
+            "Luiz Inácio Lula da Silva",
+            "Flávio Bolsonaro",
+            "Americas",
+            "World news"
+          ]
+        },
+        {
+          "title": "Brazil keeps left: what Lula’s victory means for his country and beyond",
+          "link": "https://www.theguardian.com/world/2026/oct/26/brazil-presidential-elections-luiz-inacio-lula-da-silva-flavio-bolsonaro",
+          "pubDate": "2026-10-26T06:44:33Z",
+          "author": "Libby Brooks",
+          "categories": [
+            "Brazil",
+            "Luiz Inácio Lula da Silva",
+            "Flávio Bolsonaro",
+            "Jair Bolsonaro",
+            "Americas",
+            "World news"
+          ]
+        },
+        {
+          "title": "Japanese prosecutors charge US marine suspected of robbing and killing woman",
+          "link": "https://www.theguardian.com/world/2026/oct/26/japanese-prosecuters-charge-marine-killing",
+          "pubDate": "2026-10-26T13:41:41Z",
+          "author": "Ramon Antonio Vargas and agencies",
+          "categories": [
+            "Japan",
+            "US military",
+            "US crime",
+            "US news",
+            "Asia Pacific",
+            "World news"
+          ]
+        },
+        {
+          "title": "‘Zero-energy companionship’: bizarre hobby takes seed among China’s stressed young adults",
+          "link": "https://www.theguardian.com/world/2026/oct/26/zero-energy-companionship-bizarre-hobby-takes-seed-among-chinas-stressed-young-adults",
+          "pubDate": "2026-10-26T09:47:14Z",
+          "author": "Amy Hawkins in Beijing",
+          "categories": [
+            "China",
+            "World news",
+            "Asia Pacific",
+            "Population",
+            "Young people",
+            "Hobbies",
+            "Life and style"
+          ]
+        },
+        {
+          "title": "Xi Jinping’s corruption crackdown in the spotlight as China prepares for meeting of top leaders",
+          "link": "https://www.theguardian.com/world/2026/oct/26/xi-jinping-corruption-crackdown-china-fifth-plenum",
+          "pubDate": "2026-10-26T00:58:25Z",
+          "author": "Amy Hawkins in Beijing",
+          "categories": [
+            "China",
+            "Asia Pacific",
+            "Xi Jinping"
+          ]
+        },
+        {
+          "title": "Signs suggest Thomas Markle Sr may be ‘sex offender of the grossest kind’, says Philippine minister",
+          "link": "https://www.theguardian.com/uk-news/2026/oct/25/thomas-markle-sr-philippines-investigation",
+          "pubDate": "2026-10-25T11:52:45Z",
+          "author": "Oliver Holmes and Caroline Davies",
+          "categories": [
+            "Meghan, the Duchess of Sussex",
+            "Monarchy",
+            "UK news",
+            "Philippines",
+            "Asia Pacific",
+            "World news"
+          ]
+        },
+        {
+          "title": "Kim Jong-un crosses newly opened bridge into China",
+          "link": "https://www.theguardian.com/world/2026/oct/24/kim-jong-un-crosses-newly-opened-bridge-into-china",
+          "pubDate": "2026-10-24T13:34:56Z",
+          "author": "Raphael Rashid in Seoul",
+          "categories": [
+            "North Korea",
+            "China",
+            "Kim Jong-un",
+            "Asia Pacific",
+            "World news",
+            "South Korea"
+          ]
+        },
+        {
+          "title": "Australian politics live: Lambie awaiting Hanson apology over cartoon; Liberal candidate’s husband allegedly attacked",
+          "link": "https://www.theguardian.com/australia-news/live/2026/oct/27/one-nation-pauline-hanson-independent-jacqui-lambie-labor-anthony-albanese-coalition-ntwnfb",
+          "pubDate": "2026-10-26T20:29:37Z",
+          "author": "Kat Wong",
+          "categories": [
+            "Australia news",
+            "Australian politics",
+            "Australian economy",
+            "Business",
+            "Health",
+            "Australian education",
+            "Australian immigration and asylum",
+            "Australian foreign policy",
+            "Helen Haines"
+          ]
+        },
+        {
+          "title": "iPhone Duo owners report cracks in Apple’s first foldable handset",
+          "link": "https://www.theguardian.com/technology/2026/oct/26/iphone-duo-owners-cracks-apple-first-foldable-handset",
+          "pubDate": "2026-10-26T19:15:37Z",
+          "author": "Dan Milmo Global technology editor",
+          "categories": [
+            "iPhone",
+            "Apple",
+            "Computing",
+            "Mobile phones",
+            "Smartphones",
+            "Technology",
+            "Telecommunications industry",
+            "Business",
+            "Consumer affairs",
+            "Money",
+            "World news",
+            "Australia news",
+            "US news"
+          ]
+        },
+        {
+          "title": "Endangered turtles and ‘exceptional’ coral at risk from Woodside’s gas drilling in WA, watchdog says",
+          "link": "https://www.theguardian.com/australia-news/2026/oct/27/endangered-turtles-and-exceptional-coral-at-risk-from-woodsides-gas-drilling-in-wa-watchdog-says",
+          "pubDate": "2026-10-26T14:00:45Z",
+          "author": "Peter Milne",
+          "categories": [
+            "Woodside",
+            "Gas",
+            "Western Australia",
+            "Energy",
+            "Australia news",
+            "Business",
+            "Gas",
+            "Energy",
+            "Fossil fuels",
+            "Environment",
+            "Coral",
+            "Marine life",
+            "Oceans",
+            "Endangered species",
+            "Conservation",
+            "Wildlife",
+            "Whales"
+          ]
+        },
+        {
+          "title": "The chaos in France is a ‘warning signal’ for Australia’s public spending and rising costs",
+          "link": "https://www.theguardian.com/business/2026/oct/27/the-chaos-in-france-is-a-warning-signal-for-australias-public-spending-and-rising-costs",
+          "pubDate": "2026-10-26T14:00:43Z",
+          "author": "Patrick Commins",
+          "categories": [
+            "Australian economy",
+            "Australian politics",
+            "Australia news",
+            "France"
+          ]
+        },
+        {
+          "title": "Jacinda Ardern joins University of Sydney as lecturer and mentor",
+          "link": "https://www.theguardian.com/world/2026/oct/27/jacinda-ardern-joins-university-of-sydney-as-lecturer-and-mentor",
+          "pubDate": "2026-10-26T13:01:42Z",
+          "author": "Josh Taylor",
+          "categories": [
+            "Jacinda Ardern",
+            "Australian universities",
+            "Australia news",
+            "Sydney",
+            "New South Wales",
+            "Australian education"
+          ]
+        },
+        {
+          "title": "Protest leaders urge French pupils to keep barricading their schools",
+          "link": "https://www.theguardian.com/world/2026/oct/26/protest-leaders-urge-french-students-to-keep-barricading-their-schools",
+          "pubDate": "2026-10-26T20:17:16Z",
+          "author": "Angelique Chrisafis in Paris",
+          "categories": [
+            "France",
+            "Protest",
+            "Emmanuel Macron",
+            "Education",
+            "Europe"
+          ]
+        },
+        {
+          "title": "No 10 clarifies Andy Burnham’s stance on freedom of movement",
+          "link": "https://www.theguardian.com/politics/2026/oct/26/andy-burnham-brexit-eu-freedom-of-movement",
+          "pubDate": "2026-10-26T18:03:46Z",
+          "author": "Aletha Adu Political correspondent",
+          "categories": [
+            "Brexit",
+            "Politics",
+            "Andy Burnham",
+            "Labour",
+            "UK news",
+            "European Union",
+            "Europe",
+            "Foreign policy",
+            "World news"
+          ]
+        },
+        {
+          "title": "Serbia’s Student List preparing for talks on forming government despite no clear leader",
+          "link": "https://www.theguardian.com/world/2026/oct/26/serbia-student-list-preparing-for-talks-on-forming-government-despite-no-clear-leader",
+          "pubDate": "2026-10-26T17:12:52Z",
+          "author": "Jon Henley and Ana Milosavljevic in Belgrade",
+          "categories": [
+            "World news",
+            "Serbia",
+            "Europe"
+          ]
+        },
+        {
+          "title": "Serbia wakes up to new reality after student-led movement ousts Vučić – as it hapepned",
+          "link": "https://www.theguardian.com/world/live/2026/oct/26/serbia-vucic-elections-students-bulgaria-france-urkaine-russia-latest-news-updates",
+          "pubDate": "2026-10-26T16:39:07Z",
+          "author": "Jakub Krupa (now) and Tom Ambrose (earlier)",
+          "categories": [
+            "Serbia",
+            "Bulgaria",
+            "France",
+            "Ukraine",
+            "Russia",
+            "European Union",
+            "Europe"
+          ]
+        },
+        {
+          "title": "Audi boss under fire in Germany for Trump rally appearance",
+          "link": "https://www.theguardian.com/world/2026/oct/26/audi-boss-under-fire-in-germany-for-trump-rally-appearance",
+          "pubDate": "2026-10-26T14:42:27Z",
+          "author": "Deborah Cole in Berlin",
+          "categories": [
+            "Germany",
+            "Automotive industry",
+            "US midterm elections 2026",
+            "Europe",
+            "Donald Trump",
+            "Volkswagen (VW)",
+            "World news",
+            "US news",
+            "Business",
+            "Georgia",
+            "Manufacturing sector"
+          ]
+        },
+        {
+          "title": "Netanyahu reportedly pressured military to attack Iran in run-up to election",
+          "link": "https://www.theguardian.com/world/2026/oct/26/netanyahu-reportedly-pressured-israel-military-attack-iran-runup-to-election",
+          "pubDate": "2026-10-26T19:21:36Z",
+          "author": "Emma Graham-Harrison and Julian Borger in Jerusalem",
+          "categories": [
+            "Benjamin Netanyahu",
+            "Israel",
+            "US-Israel war on Iran",
+            "Iran",
+            "Middle East and north Africa",
+            "World news",
+            "Donald Trump"
+          ]
+        },
+        {
+          "title": "Middle East peace held back by US insistence that Iran is a threat, Oman’s foreign minister says",
+          "link": "https://www.theguardian.com/world/2026/oct/26/saudi-pakistani-turkish-delegation-iran-avert-flare-up-conflict-us",
+          "pubDate": "2026-10-26T19:12:09Z",
+          "author": "Patrick Wintour Diplomatic editor",
+          "categories": [
+            "Iran",
+            "US-Israel war on Iran",
+            "Saudi Arabia",
+            "Pakistan",
+            "Turkey",
+            "Middle East and north Africa",
+            "World news",
+            "Oman",
+            "Middle East peace talks",
+            "US foreign policy",
+            "Israel",
+            "Houthis"
+          ]
+        },
+        {
+          "title": "‘It’s collective punishment’: nearly 2,000 Palestinians in Hebron displaced as Israeli forces take over homes",
+          "link": "https://www.theguardian.com/world/2026/oct/26/collective-punishment-palestinians-displaced-israeli-forces-take-over-hebron-homes",
+          "pubDate": "2026-10-26T07:00:25Z",
+          "author": "Julian Borger, Sufian Taha and Quique Kierszenbaum in Hebron",
+          "categories": [
+            "West Bank",
+            "Israel",
+            "Palestine",
+            "Middle East and north Africa",
+            "World news",
+            "Benjamin Netanyahu",
+            "Internally displaced people"
+          ]
+        },
+        {
+          "title": "Emirati diplomat who helped deliver aid to Gaza enters UN secretary general race",
+          "link": "https://www.theguardian.com/world/2026/oct/25/lana-nusseibeh-emirati-diplomat-enters-un-secretary-general-race",
+          "pubDate": "2026-10-25T19:00:10Z",
+          "author": "Patrick Wintour Diplomatic editor",
+          "categories": [
+            "United Nations",
+            "António Guterres",
+            "United Arab Emirates",
+            "Middle East and north Africa",
+            "World news",
+            "Gaza",
+            "Palestine"
+          ]
+        },
+        {
+          "title": "Israeli soldiers raze neighbourhood in Hebron, driving families from homes",
+          "link": "https://www.theguardian.com/world/2026/oct/24/israel-soldiers-raze-west-bank-neighbourhood-hebron-families-from-homes",
+          "pubDate": "2026-10-25T06:24:46Z",
+          "author": "Julian Borger in Jerusalem",
+          "categories": [
+            "West Bank",
+            "Benjamin Netanyahu",
+            "World news",
+            "Middle East and north Africa",
+            "Israel",
+            "Palestine",
+            "Internally displaced people"
+          ]
+        },
+        {
+          "title": "Myanmar’s Aung San Suu Kyi ‘sounds strong’ but is isolated, son says",
+          "link": "https://www.theguardian.com/world/2026/oct/25/myanmar-aung-san-suu-kyi-speaks-son-pr-move",
+          "pubDate": "2026-10-25T02:00:49Z",
+          "author": "Oliver Holmes in Bangkok",
+          "categories": [
+            "Myanmar",
+            "Aung San Suu Kyi",
+            "World news",
+            "South and central Asia",
+            "Myanmar coup",
+            "Rohingya"
+          ]
+        },
+        {
+          "title": "India slashes cost of cancer drugs after court rules mark-ups are ‘extortion’",
+          "link": "https://www.theguardian.com/global-development/2026/oct/23/india-cuts-cost-cancer-drugs",
+          "pubDate": "2026-10-23T07:00:03Z",
+          "author": "Amrit Dhillon in Delhi",
+          "categories": [
+            "Global development",
+            "Global health",
+            "Cancer",
+            "Health",
+            "Pharmaceuticals industry",
+            "India",
+            "World news",
+            "South and central Asia",
+            "Business",
+            "Healthcare industry",
+            "Hospitals",
+            "Breast cancer",
+            "Society"
+          ]
+        },
+        {
+          "title": "Aung San Suu Kyi’s son speaks to detained former Myanmar leader for first time in five years",
+          "link": "https://www.theguardian.com/world/2026/oct/22/aung-san-suu-kyi-son-speaks-former-myanmar-leader",
+          "pubDate": "2026-10-22T10:38:10Z",
+          "author": "Agence France-Presse in Yangon",
+          "categories": [
+            "Aung San Suu Kyi",
+            "World news",
+            "Myanmar",
+            "South and central Asia",
+            "Myanmar coup"
+          ]
+        },
+        {
+          "title": "Indian court orders release of two leaders of Cockroach movement",
+          "link": "https://www.theguardian.com/world/2026/oct/21/india-cockroach-movement-leaders-released-protests-government-crackdown",
+          "pubDate": "2026-10-21T15:26:25Z",
+          "author": "Hannah Ellis-Petersen in Delhi",
+          "categories": [
+            "India",
+            "Protest",
+            "Narendra Modi",
+            "World news",
+            "South and central Asia"
+          ]
+        },
+        {
+          "title": "Billionaire Mukesh Ambani launches India’s biggest-ever IPO",
+          "link": "https://www.theguardian.com/business/2026/oct/20/mukesh-ambani-jio-platforms-ipo-india-stock-market",
+          "pubDate": "2026-10-20T09:53:27Z",
+          "author": "Julia Kollewe",
+          "categories": [
+            "IPOs",
+            "India",
+            "World news",
+            "Business",
+            "South and central Asia",
+            "Stock markets",
+            "Internet IPOs",
+            "Telecommunications industry",
+            "ISPs",
+            "Technology sector",
+            "Technology",
+            "Internet"
+          ]
+        },
+        {
+          "title": "Russell Brand had ‘insane sexual appetite’ and his bad behaviour was normalised, trial told",
+          "link": "https://www.theguardian.com/uk-news/2026/oct/26/russell-brand-trial-personal-assistant-evidence",
+          "pubDate": "2026-10-26T20:08:45Z",
+          "author": "Emine Sinmaz",
+          "categories": [
+            "UK news"
+          ]
+        },
+        {
+          "title": "Major clean-up under way after two storms cause havoc in Britain",
+          "link": "https://www.theguardian.com/uk-news/2026/oct/26/power-cuts-storm-boelo-austen-uk",
+          "pubDate": "2026-10-26T18:25:07Z",
+          "author": "Mark Brown North of England correspondent",
+          "categories": [
+            "UK weather",
+            "Scotland",
+            "England",
+            "UK news"
+          ]
+        },
+        {
+          "title": "NHS consultants to go on two-day strike in England in November",
+          "link": "https://www.theguardian.com/society/2026/oct/26/nhs-consultants-two-day-doctors-strike-england-november-bma",
+          "pubDate": "2026-10-26T18:05:16Z",
+          "author": "Denis Campbell Health policy editor",
+          "categories": [
+            "NHS",
+            "Doctors",
+            "Industrial action",
+            "Hospitals",
+            "England",
+            "UK news",
+            "Society",
+            "Health"
+          ]
+        },
+        {
+          "title": "Jury selected for trial of four accused of sexually assaulting man’s drugged ex-wife",
+          "link": "https://www.theguardian.com/uk-news/2026/oct/26/jury-selected-for-trial-of-four-accused-of-sexually-assaulting-mans-drugged-ex-wife",
+          "pubDate": "2026-10-26T17:51:03Z",
+          "author": "Steven Morris",
+          "categories": [
+            "UK news"
+          ]
+        },
+        {
+          "title": "Shabana Mahmood launches review into murder of student Henry Nowak",
+          "link": "https://www.theguardian.com/politics/2026/oct/26/shabana-mahmood-launches-review-into-of-student-henry-nowak",
+          "pubDate": "2026-10-26T17:30:46Z",
+          "author": "Rajeev Syal Home affairs editor",
+          "categories": [
+            "Shabana Mahmood",
+            "Politics",
+            "UK news",
+            "Knife crime",
+            "Crime",
+            "Police",
+            "UK criminal justice",
+            "Independent Office for Police Conduct",
+            "Southampton"
+          ]
+        },
+        {
+          "title": "Republican and Democratic ex-governors issue rare joint endorsement for South Carolina Senate candidate – US politics live",
+          "link": "https://www.theguardian.com/us-news/live/2026/oct/26/donald-trump-abdul-el-sayed-midterms-michigan-rally-space-latest-us-politics-news-updates",
+          "pubDate": "2026-10-26T20:29:55Z",
+          "author": "Robert Mackey (now); Chris Hippensteel, Lucy Campbell and Tom Ambrose (earlier)",
+          "categories": [
+            "US midterm elections 2026",
+            "Donald Trump",
+            "US news",
+            "World news",
+            "US politics",
+            "Elon Musk"
+          ]
+        },
+        {
+          "title": "Walter Koenig, actor best known as Chekov on Star Trek, dies aged 90",
+          "link": "https://www.theguardian.com/culture/2026/oct/26/walter-koenig-actor-star-trek-dies",
+          "pubDate": "2026-10-26T18:42:11Z",
+          "author": "Adrian Horton",
+          "categories": [
+            "Star Trek",
+            "Culture",
+            "Television",
+            "US news",
+            "Science fiction TV",
+            "Television & radio",
+            "US television"
+          ]
+        },
+        {
+          "title": "Southern California prepares for flooding amid forecast of ‘record-breaking tides’",
+          "link": "https://www.theguardian.com/us-news/2026/oct/26/southern-california-flooding-tides",
+          "pubDate": "2026-10-26T18:39:27Z",
+          "author": "Dani Anguiano",
+          "categories": [
+            "California",
+            "US weather",
+            "San Diego",
+            "Extreme weather",
+            "US news",
+            "West Coast",
+            "Flooding",
+            "El Niño southern oscillation",
+            "Coastlines"
+          ]
+        },
+        {
+          "title": "Fifteen-year-old arrested in shooting near Florida university that injured 12",
+          "link": "https://www.theguardian.com/us-news/2026/oct/26/florida-famu-shooting-arrest",
+          "pubDate": "2026-10-26T18:01:23Z",
+          "author": "Richard Luscombe in Miami",
+          "categories": [
+            "Florida",
+            "US crime",
+            "US news",
+            "Gun crime"
+          ]
+        },
+        {
+          "title": "Father pays tribute to son, six, killed by truck on Kansas soccer field",
+          "link": "https://www.theguardian.com/us-news/2026/oct/26/cole-adrian-tribute-kansas-soccer",
+          "pubDate": "2026-10-26T17:50:50Z",
+          "author": "Richard Luscombe",
+          "categories": [
+            "Kansas",
+            "US crime",
+            "US news"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bbc",
+      "name": "BBC World",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "last_attempt_at": "2026-10-26T20:42:45Z",
+      "last_success_at": "2026-10-26T20:42:45Z",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "title": "Lula wins fourth term in dramatic Brazil election comeback",
+          "link": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-10-26T20:00:30Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement",
+          "link": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-10-26T14:34:52Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "Trump administration illegally fired James Comey's daughter, judge rules",
+          "link": "https://www.bbc.co.uk/news/articles/ck78px6glw3lo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-10-26T19:27:21Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing",
+          "link": "https://www.bbc.co.uk/news/articles/cq398p1wd1evo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-10-26T16:27:17Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "Catholic bishops apologise for 'exploited' Trump meeting",
+          "link": "https://www.bbc.co.uk/news/articles/cw8rz1d286v3o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-10-26T15:46:31Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "US Marine indicted for murder and robbery of woman in Japan",
+          "link": "https://www.bbc.co.uk/news/articles/c3vgxjex1z9wo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-10-26T14:13:18Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "Venezuelan opposition leader María Machado returns after months in exile",
+          "link": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-10-26T05:20:19Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "'Maxxing' selected as Dictionary.com word of the year",
+          "link": "https://www.bbc.co.uk/news/articles/cmy4xwp22xyqo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-10-26T19:16:28Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "Algeria to send troops to Niger in first foreign deployment since 1973",
+          "link": "https://www.bbc.co.uk/news/articles/cm4g14n1e5wko?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-10-26T17:00:09Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "Nurse killed in attack while responding to Ebola alert in DR Congo",
+          "link": "https://www.bbc.co.uk/news/articles/crx2dyd24188o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-10-26T14:27:32Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "More than 60 Christians killed in Ethiopia 'massacre', church official says",
+          "link": "https://www.bbc.co.uk/news/articles/cm4g175dgdx2o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-10-26T16:31:09Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "Chris Brown given suspended eight-month prison sentence over nightclub attack",
+          "link": "https://www.bbc.co.uk/news/articles/cq3dje4g4d5jo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-10-26T14:16:09Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "Police arrest teenager after shooting that injured 12, including children, in Florida",
+          "link": "https://www.bbc.co.uk/news/articles/ckpdg8vnv171o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-10-26T15:45:30Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "Australian murderer loses bid to eat Vegemite in prison",
+          "link": "https://www.bbc.co.uk/news/articles/cvwy7wz9x12go?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-10-26T04:05:28Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "Eric Bauza, voice of Bugs Bunny and Daffy Duck, dies aged 46",
+          "link": "https://www.bbc.co.uk/news/articles/cwzd6q630vjeo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-10-26T06:16:15Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "Part of Antarctica named after former BBC science correspondent",
+          "link": "https://www.bbc.co.uk/news/articles/ckvg7w919x09o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-10-26T14:54:40Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "Sydney's new $5bn airport has one big problem: Getting there is tough",
+          "link": "https://www.bbc.co.uk/news/videos/c64g1wy4mdwmo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-10-26T18:00:10Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "Watch: How President Lula turned it around to beat Flávio Bolsonaro",
+          "link": "https://www.bbc.co.uk/news/videos/cmp8g0x4l11yo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-10-26T02:53:00Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "Crowds welcome Venezuela's María Machado after months in exile",
+          "link": "https://www.bbc.co.uk/news/videos/cwgkv8kmly4zo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-10-26T09:31:12Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "Why Israel's election is one of the most important in its history",
+          "link": "https://www.bbc.co.uk/news/videos/c64g1wje3jjwo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-10-25T22:05:30Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "Fireworks and tear gas as protesters and riot police clash in Paris",
+          "link": "https://www.bbc.co.uk/news/videos/cm89zqw9lx1do?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-10-24T19:37:35Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "Israel and the US are both going to the polls - the consequences will be global",
+          "link": "https://www.bbc.co.uk/news/articles/crlykey9jywqo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-10-26T16:30:34Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "How 'Lula's Army' WhatsApp channel helped turn Brazil election around",
+          "link": "https://www.bbc.co.uk/news/articles/cwz0vg4v3ndeo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-10-26T15:37:33Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "Who is Lula? From ex-worker and prisoner to Brazil's president again",
+          "link": "https://www.bbc.co.uk/news/articles/c35yn2ye1x85o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-10-26T11:39:16Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "Five ways Trump has changed immigration in the US",
+          "link": "https://www.bbc.co.uk/news/articles/c9203k1jrmpvo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-10-26T11:29:02Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "Stunning photos capture October's Hunter's Moon around the world",
+          "link": "https://www.bbc.co.uk/weather/articles/c6zjxgj83n80o?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-10-26T11:27:39Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "Who should win the men's Ballon d'Or? BBC Sport pundits have their say",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cqjdmn0ndxjxo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-10-26T06:19:12Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "China's big political meeting could see Xi 'tighten discipline' in party",
+          "link": "https://www.bbc.co.uk/news/articles/c6n8djd1078ro?at_medium=RSS&at_campaign=rss",
+          "pubDate": "2026-10-26T07:40:57Z",
+          "author": "",
+          "categories": []
+        }
+      ]
+    },
+    {
+      "id": "fox",
+      "name": "Fox News",
+      "feed_url": "https://moxie.foxnews.com/google-publisher/latest.xml",
+      "last_attempt_at": "2026-10-26T20:42:45Z",
+      "last_success_at": "2026-10-26T20:42:45Z",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "title": "ESPN fumbles the Holy War by forcing Utah and BYU into a dreaded early-morning kickoff for fans",
+          "link": "https://www.foxnews.com/outkick-sports/espn-fumbles-holy-war-forcing-utah-byu-dreaded-early-morning-kickoff-fans",
+          "pubDate": "2026-10-26T20:33:46Z",
+          "author": "",
+          "categories": [
+            "b2655429-18ee-55f6-9204-13ce75535f1f",
+            "fnc",
+            "Fox News",
+            "fox-news/outkick/outkick-sports",
+            "fox-news/sports/ncaa-fb",
+            "fox-news/sports/ncaa/byu-cougars",
+            "fox-news/sports/ncaa/utah-utes",
+            "fox-news/entertainment/events/tv-ratings",
+            "fox-news/sports/ncaa/notre-dame-fighting-irish",
+            "fox-news/sports/ncaa/georgia-bulldogs",
+            "fox-news/outkick/betting",
+            "fox-news/outkick-sports",
+            "article"
+          ]
+        },
+        {
+          "title": "Brazilian election sends US progressives into online fever as key irregularity stokes result uncertainty",
+          "link": "https://www.foxnews.com/politics/brazilian-election-sends-us-progressives-online-fever-key-irregularity-stokes-result-uncertainty",
+          "pubDate": "2026-10-26T20:31:26Z",
+          "author": "",
+          "categories": [
+            "64dc9ee2-8187-52af-8afe-7e852629d353",
+            "fnc",
+            "Fox News",
+            "fox-news/politics",
+            "fox-news/world/world-regions/brazil",
+            "fox-news/politics/elections",
+            "fox-news/world/world-regions/latin-america",
+            "fox-news/person/jair-bolsonaro",
+            "fox-news/person/bernie-sanders",
+            "fox-news/politics",
+            "article"
+          ]
+        },
+        {
+          "title": "McDonald's McRib returns for limited time, but customers in some cities will miss out",
+          "link": "https://www.foxnews.com/food-drink/mcdonalds-mcrib-returns-limited-time-customers-some-cities-miss-out",
+          "pubDate": "2026-10-26T20:24:58Z",
+          "author": "",
+          "categories": [
+            "b896bca7-7a2a-5d51-855b-e6265a2c7b3f",
+            "fnc",
+            "Fox News",
+            "fox-news/food-drink/food/fast-food",
+            "fox-news/food-drink",
+            "fox-news/food-drink/food/restaurants",
+            "fox-news/lifestyle/food",
+            "fox-news/lifestyle",
+            "fox-news/food-drink/food/food-trends",
+            "fox-news/food-drink",
+            "article"
+          ]
+        },
+        {
+          "title": "Illegal immigrant accused of beheading Iwo Jima monument granted bond",
+          "link": "https://www.foxnews.com/us/illegal-immigrant-accused-beheading-iwo-jima-monument-granted-bond",
+          "pubDate": "2026-10-26T20:24:29Z",
+          "author": "",
+          "categories": [
+            "a6dffd84-0764-55cd-b6a5-5617d910333b",
+            "fnc",
+            "Fox News",
+            "fox-news/us",
+            "fox-news/crime",
+            "fox-news/us/us-regions/southeast/virginia",
+            "fox-news/us/military",
+            "fox-news/us/immigration/illegal-immigrants",
+            "fox-news/us/immigration",
+            "fox-news/us",
+            "article"
+          ]
+        },
+        {
+          "title": "Man found dead on Disneyland property near entrance to 'Happiest Place on Earth'",
+          "link": "https://www.foxnews.com/us/man-found-dead-disneyland-property-entrance-happiest-place-earth",
+          "pubDate": "2026-10-26T20:22:06Z",
+          "author": "",
+          "categories": [
+            "1d1b9f86-a6a6-5b73-83eb-625df96102d3",
+            "fnc",
+            "Fox News",
+            "fox-news/us/us-regions/west/california",
+            "fox-news/travel/general/theme-parks",
+            "fox-news/topic/homeless-crisis",
+            "fox-news/travel/general/travel-safety",
+            "fox-news/us/crime/police-and-law-enforcement",
+            "fox-news/us",
+            "fox-news/us",
+            "article"
+          ]
+        },
+        {
+          "title": "Betr Promo Code FOXNEWS Unlocks $200 Bonus for Game 3 of the Rays-Brewers World Series",
+          "link": "https://www.foxnews.com/outkick-betting/betr-promo-code-foxnews-unlocks-200-bonus-game-3-rays-brewers-world-series",
+          "pubDate": "2026-10-26T20:18:31Z",
+          "author": "",
+          "categories": [
+            "305d9ddc-aefe-5103-a21b-e5a1d7dc761b",
+            "fnc",
+            "Fox News",
+            "fox-news/outkick/betting",
+            "fox-news/outkick-betting",
+            "article"
+          ]
+        },
+        {
+          "title": "Betr Promo Code FOXNEWS: Get $200 and Four Free Picks for Eagles-Cowboys on MNF",
+          "link": "https://www.foxnews.com/outkick-betting/betr-promo-code-foxnews-get-200-four-free-picks-eagles-cowboys-mnf",
+          "pubDate": "2026-10-26T20:08:41Z",
+          "author": "",
+          "categories": [
+            "66543e38-61b6-5bfd-8080-efbb77c2f576",
+            "fnc",
+            "Fox News",
+            "fox-news/outkick/betting",
+            "fox-news/outkick-betting",
+            "article"
+          ]
+        },
+        {
+          "title": "ROBERT F KENNEDY JR, DR MEHMET OZ: 250 hospitals join the fight for healthier food",
+          "link": "https://www.foxnews.com/opinion/robert-f-kennedy-jr-dr-mehmet-oz-250-hospitals-join-fight-healthier-food",
+          "pubDate": "2026-10-26T20:00:32Z",
+          "author": "",
+          "categories": [
+            "e51374ab-d6ac-58cf-953b-6fd770d24522",
+            "fnc",
+            "Fox News",
+            "fox-news/opinion",
+            "fox-news/politics/regulation/health-care",
+            "fox-news/health/health-care",
+            "fox-news/politics/senate/health-care",
+            "fox-news/health/nutrition-and-fitness/nutrition",
+            "fox-news/health/maha",
+            "fox-news/world/united-nations/reform",
+            "fox-news/health",
+            "fox-news/opinion",
+            "article"
+          ]
+        },
+        {
+          "title": "Data brokers don't just collect facts. They guess about you",
+          "link": "https://www.foxnews.com/tech/data-brokers-dont-just-collect-facts-they-guess-about-you",
+          "pubDate": "2026-10-26T20:00:09Z",
+          "author": "",
+          "categories": [
+            "1992be3d-eaaf-588d-99f1-972b598e893c",
+            "fnc",
+            "Fox News",
+            "fox-news/us/personal-freedoms/privacy",
+            "fox-news/tech/topics/security",
+            "fox-news/tech/topics/cybercrime",
+            "fox-news/health",
+            "fox-news/us/religion",
+            "fox-news/tech",
+            "article"
+          ]
+        },
+        {
+          "title": "Underdog Promo Code FOXNEWS: Unlock Play $10, Get $50 Promo for Rays-Brewers World Series Game 3",
+          "link": "https://www.foxnews.com/outkick-betting/underdog-promo-code-foxnews-unlock-play-10-get-50-promo-rays-brewers-world-series-game-3",
+          "pubDate": "2026-10-26T19:41:18Z",
+          "author": "",
+          "categories": [
+            "85e45c8d-b5b6-5cce-9e2b-af1a0504c9ba",
+            "fnc",
+            "Fox News",
+            "fox-news/outkick/betting",
+            "fox-news/outkick-betting",
+            "article"
+          ]
+        },
+        {
+          "title": "Fanatics Sportsbook Promo Code FOXNEWS350: Bet $20, Get $350 on Eagles-Cowboys on Monday Night Football",
+          "link": "https://www.foxnews.com/outkick-betting/fanatics-sportsbook-promo-code-foxnews350-bet-20-get-350-eagles-cowboys-monday-night-football",
+          "pubDate": "2026-10-26T19:35:36Z",
+          "author": "",
+          "categories": [
+            "973aa52e-c94f-56ef-b12c-a360d7be8e47",
+            "fnc",
+            "Fox News",
+            "fox-news/outkick/betting",
+            "fox-news/outkick-betting",
+            "article"
+          ]
+        },
+        {
+          "title": "Sophie Cunningham's cowboy hat message has fans talking, Holly Rowe's WNBA Finals plan & Is Texas' field gray?",
+          "link": "https://www.foxnews.com/outkick-sports/sophie-cunninghams-cowboy-hat-message-fans-talking-holly-rowes-wnba-finals-plan-texas-field-gray",
+          "pubDate": "2026-10-26T19:33:32Z",
+          "author": "",
+          "categories": [
+            "697cdef4-cc57-52a7-b591-6646880edc6b",
+            "fnc",
+            "Fox News",
+            "fox-news/outkick/outkick-sports",
+            "fox-news/sports/wnba",
+            "fox-news/sports/ncaa-fb",
+            "fox-news/sports/nfl",
+            "fox-news/us/atlanta",
+            "fox-news/outkick-sports",
+            "article"
+          ]
+        },
+        {
+          "title": "Fanatics Sportsbook Promo Code FOXNEWS350: Bet $20, Get $350 for Rays vs Brewers Game 3",
+          "link": "https://www.foxnews.com/outkick-betting/fanatics-sportsbook-promo-code-foxnews350-bet-20-get-350-rays-vs-brewers-game-3",
+          "pubDate": "2026-10-26T19:31:25Z",
+          "author": "",
+          "categories": [
+            "547ca9be-5bcd-55d4-8464-4fa1d0172017",
+            "fnc",
+            "Fox News",
+            "fox-news/outkick/betting",
+            "fox-news/outkick-betting",
+            "article"
+          ]
+        },
+        {
+          "title": "Underdog Promo Code FOXNEWS: Play $10, Get $50 on Eagles vs Cowboys",
+          "link": "https://www.foxnews.com/outkick-betting/underdog-promo-code-foxnews-play-10-get-50-eagles-vs-cowboys",
+          "pubDate": "2026-10-26T19:29:24Z",
+          "author": "",
+          "categories": [
+            "7b2e6dc4-f39e-5afd-b962-ad1bf20f450c",
+            "fnc",
+            "Fox News",
+            "fox-news/outkick/betting",
+            "fox-news/outkick-betting",
+            "article"
+          ]
+        },
+        {
+          "title": "Colorado pro-life sidewalk counselor battles state 'bubble law' she says curtails First Amendment",
+          "link": "https://www.foxnews.com/media/colorado-pro-life-sidewalk-counselor-battles-state-bubble-law-she-says-curtails-first-amendment",
+          "pubDate": "2026-10-26T19:07:04Z",
+          "author": "",
+          "categories": [
+            "60629623-db7d-567b-8f67-db80449efd04",
+            "fnc",
+            "Fox News",
+            "fox-news/politics/judiciary/abortion",
+            "fox-news/us/personal-freedoms/first-amendment",
+            "fox-news/politics/executive/law",
+            "fox-news/us/us-regions/west/colorado",
+            "fox-news/politics/judiciary/federal-courts",
+            "fox-news/politics/judiciary",
+            "fox-news/media",
+            "fox-news/media",
+            "article"
+          ]
+        },
+        {
+          "title": "WNBA Finals Game 6, a potential title-clincher, will be held in the afternoon on Thursday",
+          "link": "https://www.foxnews.com/outkick-sports/wnba-finals-game-6-potential-title-clincher-held-afternoon-thursday",
+          "pubDate": "2026-10-26T19:06:17Z",
+          "author": "",
+          "categories": [
+            "42f284b8-c719-5bcd-9ea1-34ba08cb3e9b",
+            "fnc",
+            "Fox News",
+            "fox-news/sports/wnba",
+            "fox-news/outkick/outkick-sports",
+            "fox-news/sports",
+            "fox-news/sports/wnba/atlanta-dream",
+            "fox-news/sports/wnba/golden-state-valkyries",
+            "fox-news/outkick-sports",
+            "article"
+          ]
+        },
+        {
+          "title": "Cops called to Florida youth soccer game to deal with parents of 3-year-old soccer prodigy",
+          "link": "https://www.foxnews.com/outkick-sports/cops-called-florida-youth-soccer-game-deal-parents-3-year-old-soccer-prodigy",
+          "pubDate": "2026-10-26T19:05:38Z",
+          "author": "",
+          "categories": [
+            "df9219cb-7d21-58ec-a556-97b47052449f",
+            "fnc",
+            "Fox News",
+            "fox-news/outkick/outkick-sports",
+            "fox-news/sports/soccer",
+            "fox-news/sports",
+            "fox-news/lifestyle/parenting",
+            "fox-news/us/education/parents",
+            "fox-news/us/us-regions/southeast/florida",
+            "fox-news/outkick-sports",
+            "article"
+          ]
+        },
+        {
+          "title": "Somali rap promising to 'scatter' enemies underscores Omar's serene lakeside video",
+          "link": "https://www.foxnews.com/politics/omars-menacing-message-hidden-seemingly-innocent-tweet-exposed-crushed-enemy",
+          "pubDate": "2026-10-26T18:50:40Z",
+          "author": "",
+          "categories": [
+            "ea8c25cf-04d6-52d9-8da4-94535308fe10",
+            "fnc",
+            "Fox News",
+            "fox-news/politics",
+            "fox-news/person/ilhan-omar",
+            "fox-news/politics/executive/homeland-security",
+            "fox-news/politics/justice-department",
+            "fox-news/us/somali-immigrant-community",
+            "fox-news/politics",
+            "article"
+          ]
+        },
+        {
+          "title": "Haley Stevens ripped by fellow Dems for refusing to explicitly back El-Sayed: 'Stay the f--- off television'",
+          "link": "https://www.foxnews.com/politics/haley-stevens-ripped-fellow-dems-refusing-explicitly-back-el-sayed-stay-f-off-television",
+          "pubDate": "2026-10-26T18:45:57Z",
+          "author": "",
+          "categories": [
+            "5a874eaa-1a34-5bbe-b2e9-e3286bff8794",
+            "fnc",
+            "Fox News",
+            "fox-news/politics",
+            "fox-news/politics/abdul-el-sayed",
+            "fox-news/politics/house-of-representatives",
+            "fox-news/politics/senate",
+            "fox-news/politics/elections/midterm-elections",
+            "fox-news/politics",
+            "article"
+          ]
+        },
+        {
+          "title": "Obama judge rules Trump DOJ illegally fired James Comey's daughter, rejects sweeping Article II claim",
+          "link": "https://www.foxnews.com/politics/obama-judge-rules-trump-doj-illegally-fired-james-comeys-daughter-rejects-sweeping-article-ii-claim",
+          "pubDate": "2026-10-26T18:41:05Z",
+          "author": "",
+          "categories": [
+            "366e465d-7861-51f9-9b07-801e1d45a843",
+            "fnc",
+            "Fox News",
+            "fox-news/politics/judiciary/federal-courts",
+            "fox-news/person/james-comey",
+            "fox-news/politics/judiciary",
+            "fox-news/politics/executive/law",
+            "fox-news/politics",
+            "fox-news/politics/justice-department",
+            "fox-news/person/donald-trump",
+            "fox-news/us/us-regions/northeast/new-york",
+            "fox-news/politics",
+            "article"
+          ]
+        },
+        {
+          "title": "Lincoln Riley’s USC tenure could end with loss against Ohio State’s backup quarterback, and $70m buyout",
+          "link": "https://www.foxnews.com/outkick-sports/lincoln-riley-usc-tenure-could-end-loss-against-ohio-state-backup-quarterback-70m-buyout",
+          "pubDate": "2026-10-26T18:37:33Z",
+          "author": "",
+          "categories": [
+            "c4a3cf0c-2d1d-5991-942d-25333aeb085f",
+            "fnc",
+            "Fox News",
+            "fox-news/outkick/outkick-sports",
+            "fox-news/sports/ncaa-fb",
+            "fox-news/sports/ncaa/usc-trojans",
+            "fox-news/sports/ncaa/ohio-state-buckeyes",
+            "fox-news/us/los-angeles",
+            "fox-news/sports/ncaa/wisconsin-badgers",
+            "fox-news/outkick/betting",
+            "fox-news/outkick-sports",
+            "article"
+          ]
+        },
+        {
+          "title": "Netanyahu fights for political future as Israel heads to polls with Iran threat looming",
+          "link": "https://www.foxnews.com/world/netanyahu-fights-political-future-israel-heads-polls-iran-threat-looming",
+          "pubDate": "2026-10-26T18:36:08Z",
+          "author": "",
+          "categories": [
+            "1602cfa1-642c-59bb-8d27-49d3618ad50a",
+            "fnc",
+            "Fox News",
+            "fox-news/person/benjamin-netanyahu",
+            "fox-news/world/world-regions/israel",
+            "fox-news/person/donald-trump",
+            "fox-news/world/conflicts/iran",
+            "fox-news/world/world-elections",
+            "fox-news/world",
+            "article"
+          ]
+        },
+        {
+          "title": "Schiff accuses DOJ of trying to 'subvert' elections as GOP alleges same-name candidate meant to confuse voters",
+          "link": "https://www.foxnews.com/politics/schiff-accuses-doj-trying-subvert-elections-gop-alleges-same-name-candidate-meant-confuse-voters",
+          "pubDate": "2026-10-26T18:10:40Z",
+          "author": "",
+          "categories": [
+            "63d21562-0753-5f6f-9106-27c9ccb274e9",
+            "fnc",
+            "Fox News",
+            "fox-news/person/adam-schiff",
+            "fox-news/person/todd-blanche",
+            "fox-news/politics/justice-department",
+            "fox-news/politics/attorney-general",
+            "fox-news/politics/state-and-local/elections-disputes",
+            "fox-news/politics",
+            "fox-news/us/us-regions/west/alaska",
+            "fox-news/person/donald-trump",
+            "fox-news/politics",
+            "article"
+          ]
+        },
+        {
+          "title": "Terri Clark applauds Ella Langley's historic rise but says she 'would not want to trade places with her'",
+          "link": "https://www.foxnews.com/outkick-sports/terri-clark-applauds-ella-langley-historic-rise-would-not-want-trade-places",
+          "pubDate": "2026-10-26T18:04:40Z",
+          "author": "",
+          "categories": [
+            "4f561855-bc78-5f83-8a21-17e7826fe202",
+            "fnc",
+            "Fox News",
+            "fox-news/entertainment/genres/country",
+            "fox-news/outkick/outkick-outdoors",
+            "fox-news/us/education/achievement",
+            "fox-news/topic/up-and-country",
+            "fox-news/outkick/outkick-sports",
+            "fox-news/outkick/betting",
+            "fox-news/outkick-sports",
+            "article"
+          ]
+        },
+        {
+          "title": "Trump's not on the ballot but swing state voters still cast ballots with MAGA in mind",
+          "link": "https://www.foxnews.com/politics/trumps-not-ballot-swing-state-voters-still-cast-ballots-maga-mind",
+          "pubDate": "2026-10-26T17:55:39Z",
+          "author": "",
+          "categories": [
+            "1f23e496-8b70-5334-b76b-ba9522517b63",
+            "fnc",
+            "Fox News",
+            "fox-news/politics/elections/midterm-elections",
+            "fox-news/politics/elections/battleground-voters",
+            "fox-news/us/democratic-party",
+            "fox-news/person/donald-trump",
+            "fox-news/us/us-regions/northeast/pennsylvania",
+            "fox-news/politics",
+            "fox-news/politics",
+            "article"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nbc",
+      "name": "NBCNews.com",
+      "feed_url": "https://feeds.nbcnews.com/nbcnews/public/news",
+      "last_attempt_at": "2026-10-26T20:42:45Z",
+      "last_success_at": "2026-10-26T20:42:45Z",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "title": "AI startup Anthropic unveils its public IPO filing for the first time",
+          "link": "https://www.nbcnews.com/video/ai-startup-anthropic-unveils-its-public-ipo-filing-for-the-first-time-272224837929",
+          "pubDate": "2026-10-26T14:57:29Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "Israelis Set to Vote in First Election Since Oct. 7 Attacks",
+          "link": "https://www.today.com/video/new-polls-show-netanyahu-in-tight-race-against-main-rival-272215621721",
+          "pubDate": "2026-10-26T11:16:40Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "Brazilian President Lula wins a historic fourth term",
+          "link": "https://www.nbcnews.com/video/brazilian-president-lula-wins-a-historic-fourth-term-272213573962",
+          "pubDate": "2026-10-26T09:35:12Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "Federal judge rules Trump DOJ firing of prosecutor Maurene Comey unlawful",
+          "link": "https://www.nbcnews.com/video/federal-judge-rules-trump-doj-firing-of-prosecutor-maurene-comey-unlawful-272230981684",
+          "pubDate": "2026-10-26T16:04:30Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "Man charged with mailing threatening letters with white substance to members of Congress",
+          "link": "https://www.nbcnews.com/politics/justice-department/man-charged-mailing-threatening-letters-white-substance-congress-rcna605793",
+          "pubDate": "2026-10-26T19:58:09Z",
+          "author": "Ryan J. Reilly",
+          "categories": []
+        },
+        {
+          "title": "Texas redistricting left these Latino voters confused, but will it impact midterm vote?",
+          "link": "https://www.nbcnews.com/politics/2026-election/texas-redistricting-left-latino-voters-confused-will-impact-midterm-vo-rcna605709",
+          "pubDate": "2026-10-26T20:21:41Z",
+          "author": "Albinson Linares",
+          "categories": []
+        },
+        {
+          "title": "Walter Koenig, actor who played Chekov on original ‘Star Trek’ series, dies at 90",
+          "link": "https://www.nbcnews.com/pop-culture/pop-culture-news/walter-koenig-actor-played-chekov-original-star-trek-series-dies-90-rcna605743",
+          "pubDate": "2026-10-26T17:55:53Z",
+          "author": "David K. Li",
+          "categories": []
+        },
+        {
+          "title": "Police arrest a 15-year-old in shooting near Florida A&M stadium",
+          "link": "https://www.nbcnews.com/now/video/police-arrest-suspect-in-shooting-near-florida-a-m-stadium-272217669952",
+          "pubDate": "2026-10-26T12:37:48Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "How Democrats could win the House, how the GOP could hang on, and where to look for a wave",
+          "link": "https://www.nbcnews.com/politics/2026-election/house-majority-math-democrats-win-republicans-scenarios-rcna604404",
+          "pubDate": "2026-10-24T09:00:42Z",
+          "author": "Stephen Pettigrew",
+          "categories": []
+        },
+        {
+          "title": "Debbie Shields speaks out on her viral moment riffing with Conan O'Brien",
+          "link": "https://www.nbcnews.com/video/debbie-shields-speaks-out-on-her-viral-moment-riffing-with-conan-o-brien-272080965792",
+          "pubDate": "2026-10-23T00:59:09Z",
+          "author": "",
+          "categories": []
+        },
+        {
+          "title": "Judge orders DOJ to reinstate former federal prosecutor Maurene Comey, daughter of ex-FBI director",
+          "link": "https://www.nbcnews.com/politics/trump-administration/doj-justice-maurene-comey-court-reinstate-rcna605720",
+          "pubDate": "2026-10-26T16:10:24Z",
+          "author": "Ryan J. Reilly",
+          "categories": []
+        },
+        {
+          "title": "House Democrats call on DOJ to name special counsel in Epstein case",
+          "link": "https://www.nbcnews.com/politics/congress/house-democrats-call-doj-name-special-counsel-epstein-case-rcna605269",
+          "pubDate": "2026-10-26T15:40:27Z",
+          "author": "Ryan Nobles",
+          "categories": []
+        },
+        {
+          "title": "Anthropic reveals $80 billion loss, huge spending spree ahead of IPO",
+          "link": "https://www.nbcnews.com/business/markets/anthropic-releases-ipo-filing-ahead-highly-anticipated-stock-debut-rcna605676",
+          "pubDate": "2026-10-26T13:12:04Z",
+          "author": "Steve Kopack",
+          "categories": []
+        },
+        {
+          "title": "Police arrest a 15-year-old in shooting near Florida A&M stadium that injured 12",
+          "link": "https://www.nbcnews.com/news/us-news/police-arrest-teenager-shooting-florida-stadium-rcna605677",
+          "pubDate": "2026-10-26T12:10:38Z",
+          "author": "Adela Suliman",
+          "categories": []
+        },
+        {
+          "title": "Eric Bauza, voice of Bugs Bunny, Daffy Duck and Porky Pig, dies at 46",
+          "link": "https://www.nbcnews.com/pop-culture/pop-culture-news/eric-bauza-voice-bugs-bunny-daffy-duck-porky-pig-dies-46-rcna605663",
+          "pubDate": "2026-10-26T11:17:41Z",
+          "author": "Adela Suliman",
+          "categories": []
+        },
+        {
+          "title": "Some hair growth tools work, others are gimmicks — here’s how to tell the difference",
+          "link": "https://www.nbcnews.com/select/shopping/best-hair-growth-tools-rcna260814",
+          "pubDate": "2026-02-26T17:08:20Z",
+          "author": "Mili Godio",
+          "categories": []
+        },
+        {
+          "title": "2nd-generation Apple AirTags are at their lowest price ever: Shop now before it’s gone",
+          "link": "https://www.nbcnews.com/select/shopping/apple-airtag-2-deal-of-the-day-rcna605757",
+          "pubDate": "2026-10-26T18:38:41Z",
+          "author": "Cory Fernandez",
+          "categories": []
+        },
+        {
+          "title": "Ulta’s Early Black Friday sale has Clinique, Medicube and more up to 50% off",
+          "link": "https://www.nbcnews.com/select/shopping/ulta-early-black-friday-sale-2026-rcna605751",
+          "pubDate": "2026-10-26T18:35:37Z",
+          "author": "Ashley Morris",
+          "categories": []
+        },
+        {
+          "title": "How to clean wooden utensils and avoid getting splinters in your food",
+          "link": "https://www.nbcnews.com/select/shopping/how-to-clean-wooden-utensils-rcna605692",
+          "pubDate": "2026-10-26T16:25:36Z",
+          "author": "Cory Fernandez",
+          "categories": []
+        },
+        {
+          "title": "No risk of ammonia contamination, officials say, after fire at Oregon seafood plant",
+          "link": "https://www.nbcnews.com/news/us-news/newport-oregon-pacific-seafood-fire-ammonia-rcna605603",
+          "pubDate": "2026-10-25T23:04:35Z",
+          "author": "Marlene Lenthang",
+          "categories": []
+        },
+        {
+          "title": "Personal Attacks Intensify Amid Tight Midterm Races",
+          "link": "https://www.today.com/video/trump-and-obama-trade-jabs-ahead-of-midterm-elections-272216133628",
+          "pubDate": "2026-10-26T11:14:28Z",
+          "author": "",
+          "categories": []
+        }
+      ]
+    }
+  ],
+  "refresh_mode": "manual"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "how-it-affects-you",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node tests/frontend-vm.cjs && python3 -m unittest discover -s tests -p 'test_*.py'",
+    "test:browser": "node tests/browser.cjs"
+  },
+  "devDependencies": { "playwright": "1.62.1" }
+}
