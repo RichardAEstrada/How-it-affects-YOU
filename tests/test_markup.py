@@ -13,6 +13,10 @@ class Page(HTMLParser):
 class MarkupTests(unittest.TestCase):
  def setUp(self):self.page=Page();self.page.feed((Path(__file__).parents[1]/'index.html').read_text())
  def test_all_provider_options_are_real_elements(self):self.assertEqual(self.page.options['internetProvider'],['','att','spectrum','frontier','other'])
+ def test_breaking_section_and_truthful_collection_disclosures(self):
+  html=(Path(__file__).parents[1]/'index.html').read_text()
+  for id in ['breaking','breakingTitle','breakingStatus','breakingGrid','breakingBadge']:self.assertIn(id,self.page.ids)
+  self.assertIn('href="#breaking"',html);self.assertIn('17 and 47 UTC',html);self.assertNotIn('rss2json',html);self.assertNotIn('AUTO-COLLECTION NOT ENABLED',html)
  def test_ids_are_unique(self):self.assertEqual(len(self.page.ids),len(set(self.page.ids)))
  def test_all_five_publishers_are_selectable(self):self.assertEqual(set(self.page.options['publisherFilter']),{'all','npr','bbc','guardian','fox','nbc'})
 if __name__=='__main__':unittest.main()

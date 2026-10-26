@@ -111,7 +111,7 @@ def collect(previous=None, now=None, fetcher=fetch_feed):
     with ThreadPoolExecutor(max_workers=len(SOURCES)) as pool:
         rows=list(pool.map(lambda s:refresh_source(s,old.get(s['id']),now,fetcher),SOURCES))
     scheduled=os.environ.get('HIAY_NEWS_REFRESH_MODE')=='scheduled'
-    return dict(schema_version=1,generated_at=stamp(now),refresh_mode='scheduled' if scheduled else 'manual',refresh_interval_seconds=3600 if scheduled else None,stale_after_seconds=7200,sources=rows)
+    return dict(schema_version=1,generated_at=stamp(now),refresh_mode='scheduled' if scheduled else 'manual',refresh_interval_seconds=1800 if scheduled else None,stale_after_seconds=7200,sources=rows)
 
 def main():
     path=Path('data/news.json');path.parent.mkdir(exist_ok=True)
