@@ -1,0 +1,68 @@
+name: Collect publisher RSS and deploy Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
+permissions:
+  contents: read
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Restore the previous per-publisher snapshot
+        uses: actions/cache@v4
+        with:
+          path: data/news.json
+          key: publisher-news-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            publisher-news-v1-
+      - name: Check parser, failure isolation and retention
+        run: |
+          python3 -m unittest discover -s tests -p 'test_*.py'
+          node tests/frontend-vm.cjs
+      - name: Check browser and mobile regression tests
+        if: github.event_name != 'schedule'
+        env:
+          HIAY_TEST_ARTIFACTS: /tmp/hiay-browser-artifacts
+        run: |
+          npm ci --ignore-scripts
+          npx playwright install --with-deps chromium
+          CHROMIUM_PATH="$(node -e "process.stdout.write(require('playwright').chromium.executablePath())")" node tests/browser.cjs
+      - name: Collect direct public publisher RSS
+        env:
+          HIAY_NEWS_REFRESH_MODE: scheduled
+        run: python3 scripts/collect_news.py
+      - name: Prepare only public site files
+        run: |
+          mkdir -p _site/data
+          cp index.html config.js _site/
+          cp data/news.json _site/data/
+          touch _site/.nojekyll
+          printf '{"revision":"%s","run_id":"%s"}\n' "$GITHUB_SHA" "$GITHUB_RUN_ID" > _site/build.json
+      - name: Upload public site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
